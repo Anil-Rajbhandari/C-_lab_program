@@ -1,1 +1,1 @@
-# C-_lab_program
+# C++_lab_program
