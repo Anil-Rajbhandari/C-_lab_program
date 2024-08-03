@@ -26,7 +26,8 @@ int main() {
         cout << "Name: "; cin >> ws; cin.getline(student.name, 50);
         cout << "Roll: "; cin >> student.roll;
         cout << "Marks: "; cin >> student.marks;
-        cout << "Address: "; cin >> ws; cin.getline(student.address, 100);
+        cout << "Address: "; cin >> ws; 
+         cin.getline(student.address, 100);
         outFile.write(reinterpret_cast<char*>(&student), sizeof(Student));
     }
 
